@@ -147,9 +147,9 @@ function Helloworld() {
         </div>
         <div className=" headwithbg col-sm-12 col-md-12 col-lg-9 col-xl-9">
           <div className="ek11">
-            <h1 class="ml15">
-              <span class="word">EK</span>
-              <span class="word">11</span>
+            <h1 className="ml15">
+              <span className="word">EK</span>
+              <span className="word">11</span>
           
             </h1>
             <h3>Cricket club</h3>
