@@ -4,7 +4,7 @@ import cricboy from '../assets/9.png';
 import grppic1 from '../assets/grouppic.png';
 import firebase from 'firebase/compat/app'; // import firebase compat module
 import 'firebase/compat/firestore'; // import firestore compat module
-import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
+//import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
 //import anime from "animejs"
 
 
