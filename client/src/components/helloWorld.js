@@ -4,8 +4,8 @@ import cricboy from '../assets/9.png';
 import grppic1 from '../assets/grouppic.png';
 import firebase from 'firebase/compat/app'; // import firebase compat module
 import 'firebase/compat/firestore'; // import firestore compat module
-//import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
-//import anime from "animejs"
+import Letterize from "letterizejs";
+import anime from "animejs";
 
 
 
@@ -83,7 +83,7 @@ function Helloworld() {
   }
 
 
-   /*  useEffect(() => {
+   useEffect(() => {
     const test = new Letterize({
       targets: '.animate-me',
     });
@@ -138,7 +138,7 @@ function Helloworld() {
    }, []);
 
     return null; // Render nothing, as this component only manages the animation
-  }*/
+  }
   return (
     <div className="container-fluid">
       <div className="row">
@@ -150,7 +150,7 @@ function Helloworld() {
             <h1 className="ml15">
               <span className="word">EK</span>
               <span className="word">11</span>
-          
+              <AnimationComponent/>
             </h1>
             <h3>Cricket club</h3>
           </div>
