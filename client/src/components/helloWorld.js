@@ -5,7 +5,7 @@ import grppic1 from '../assets/grouppic.png';
 import firebase from 'firebase/compat/app'; // import firebase compat module
 import 'firebase/compat/firestore'; // import firestore compat module
 import Letterize from "https://cdn.skypack.dev/letterizejs@2.0.0";
-import anime from "animejs"
+//import anime from "animejs"
 
 
 
@@ -83,12 +83,12 @@ function Helloworld() {
   }
 
 
-  useEffect(() => {
+   /*  useEffect(() => {
     const test = new Letterize({
       targets: '.animate-me',
     });
 
-    const animation = anime.timeline({
+ const animation = anime.timeline({
       targets: test.listAll,
       delay: anime.stagger(100, {
         grid: [test.list[0].length, test.list.length],
@@ -135,10 +135,10 @@ function Helloworld() {
       return () => {
         animationRef.current.pause();
       };
-    }, []);
+   }, []);
 
     return null; // Render nothing, as this component only manages the animation
-  }
+  }*/
   return (
     <div className="container-fluid">
       <div className="row">
@@ -150,7 +150,7 @@ function Helloworld() {
             <h1 class="ml15">
               <span class="word">EK</span>
               <span class="word">11</span>
-              <AnimationComponent />
+          
             </h1>
             <h3>Cricket club</h3>
           </div>
