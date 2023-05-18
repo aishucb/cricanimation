@@ -58,7 +58,7 @@ function Helloworld() {
         setTie(data.tie);
         setUpcoming(data.upcoming);
         setWon(data.won);
-        setPercentage(data.won / data.matches * 100);
+        setPercentage(Math.round(data.won / data.matches * 100));
 
         //image component
         const fetchPlayers = async () => {
