@@ -84,34 +84,8 @@ function Helloworld() {
 
 
    
-  function AnimationComponent() {
-    const animationRef = useRef(null);
+  
 
-    useEffect(() => {
-      animationRef.current = anime.timeline({ loop: true })
-        .add({
-          targets: '.ml15 .word',
-          scale: [14, 1],
-          opacity: [0, 1],
-          easing: 'easeOutCirc',
-          duration: 800,
-          delay: (el, i) => 800 * i,
-        }).add({
-          targets: '.ml15',
-          opacity: 0,
-          duration: 1000,
-          easing: 'easeOutExpo',
-          delay: 1000,
-        });
-
-      return () => {
-        animationRef.current.pause();
-      };
-   }, []);
-
-
-    return null; // Render nothing, as this component only manages the animation
-}
   return (
     <div className="container-fluid">
       <div className="row">
@@ -123,7 +97,7 @@ function Helloworld() {
             <h1 className="ml15">
               <span className="word">EK</span>
               <span className="word">11</span>
-              <AnimationComponent/>
+              
             </h1>
             <h3>Cricket club</h3>
           </div>
@@ -229,4 +203,4 @@ export default Helloworld;
 //cd server && yarn dev and cd client && yarn start
 // <div id="quotes"  >
 
-//</div>
+
